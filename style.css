@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    
+    
+}
+
+#hero {
+    background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    
+}
+
+nav a {
+    color: gray;
+    gap: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.munkaim {
+    border-left: 3px forestgreen solid;
+    border-right: 3px forestgreen solid;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn  {
+    background-color: white;
+    text-decoration: none;
+    color: seagreen;
+    height: 50px;
+    width: 100px;
+    
+}
+
+section {
+    border: 1px solid black;
+   
+    width: 100%;
+    height: 100vh;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
