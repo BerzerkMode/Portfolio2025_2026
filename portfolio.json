@@ -1,0 +1,77 @@
+[
+    {
+        "id": "1",
+        "title": "Virágbolt",
+        "photo_url": "https://res.cloudinary.com/djwpme8m9/image/upload/v1742814178/viragbolt_xx2mld.png",
+        "repo-link": "https://github.com/BerzerkMode/viragbolt",
+        "topics": [
+            "fetch API",
+            "Set adatszerkezet",
+            "Array.from()",
+            "radió gombok használata",
+            "checkboxok használata",
+            "select használata"
+        ],
+        "site-link": "https://berzerkmode.github.io/viragbolt/"
+    },
+    {
+        "id": "2",
+        "title": "Gyümölcsök",
+        "photo_url": "https://res.cloudinary.com/djwpme8m9/image/upload/v1742814178/gyumolcsok_rdwprh.png",
+        "repo-link": "https://github.com/BerzerkMode/fruits",
+        "topics": [
+            "fetch API",
+            "Set adatszerkezet",
+            "Array.from()",
+            "radió gombok használata",
+            "checkboxok használata",
+            "select használata"
+        ],
+        "site-link": "https://berzerkmode.github.io/fruits/"
+    },
+    {
+        "id": "3",
+        "title": "Profil",
+        "photo_url": "https://res.cloudinary.com/djwpme8m9/image/upload/v1742814178/profil_pli8mc.png",
+        "repo-link": "https://github.com/BerzerkMode/profile",
+        "topics": [
+            "fetch API",
+            "Set adatszerkezet",
+            "Array.from()",
+            "radió gombok használata",
+            "checkboxok használata",
+            "select használata"
+        ],
+        "site-link": "https://berzerkmode.github.io/profile/"
+    },
+    {
+        "id": "4",
+        "title": "BMI",
+        "photo_url": "https://res.cloudinary.com/djwpme8m9/image/upload/v1742814177/bmi_wrzpfx.png",
+        "repo-link": "https://github.com/BerzerkMode/bmi",
+        "topics": [
+            "fetch API",
+            "Set adatszerkezet",
+            "Array.from()",
+            "radió gombok használata",
+            "checkboxok használata",
+            "select használata"
+        ],
+        "site-link": "https://berzerkmode.github.io/bmi/"
+    },
+    {
+        "id": "5",
+        "title": "Bolygók",
+        "photo_url": "https://res.cloudinary.com/djwpme8m9/image/upload/v1742814178/bolgyok_vpni3d.png",
+        "repo-link": "https://github.com/BerzerkMode/bolgyok",
+        "topics": [
+            "fetch API",
+            "Set adatszerkezet",
+            "Array.from()",
+            "radió gombok használata",
+            "checkboxok használata",
+            "select használata"
+        ],
+        "site-link": "https://berzerkmode.github.io/bolgyok/"
+    }
+]

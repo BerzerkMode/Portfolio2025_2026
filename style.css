@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:ital,wght@0,300;1,300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#hero {
+    /*background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);*/
+    background: linear-gradient(to right, #544a7d, #ffd452);
+
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1100000;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+@media (max-width:768px) {
+    .portf {
+        display: none;
+    }
+}
+
+ul a {
+    color: gray;
+    text-decoration: none;
+}
+
+ .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+ }
+.logo a {
+    text-decoration: none;
+    color: gray;
+}
+
+.logo h3 {
+    color: black;
+    font-weight: bold;
+}
+
+.logo div{
+ background-color: #544a7d;
+ height: 30px;
+ width: 30px;
+ border-radius: 50%;
+}
+
+.munkaim {
+    border-left: 3px solid #ffd452;
+    border-right: 3px solid #ffd452;
+    padding-left: 0.2rem;  
+    padding-right: 0.2rem;
+}
+
+.btn  {
+    background-color: white;
+    text-decoration: none;
+    color: #544a7d;
+    height: 50px;
+    width: 100px;
+}
+
+.btnContact  {
+    padding-top: 14px;
+    text-align: center;
+    border-radius: 40px;
+    width: 200px;
+    font-size: large;
+    font-weight: bold;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    color: #544a7d;
+}
+
+section {
+    width: 100%;
+    height: calc(100vh - 42px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero-content {
+    padding-top: 75px;
+    max-width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero-profile {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.hero-photo {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-right: 50px;
+    object-fit: cover;
+}
+
+blockquote {
+    color: #544a7d;
+    font-size: 1.5rem;
+    border-left: 4px solid #544a7d;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100px;
+    text-align: justify;
+}
+
+.hero-name h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: flex-start;
+ }
+
+.hero-name {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 40px;
+    gap: 30px;
+}
+
+.hero-button {
+    padding-bottom: none;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+a.btn {
+    padding-top: 14px;
+    text-align: center;
+    border-radius: 40px;
+    width: 200px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+#about {
+    background-color: rgb(236, 236, 236);
+}
+
+#work {
+    background-color: whitesmoke;
+}
+
+#contact {
+    background-color: rgb(56, 56, 56);
+}
+
+/*-----------------------------about-----------------------------------*/
+
+
+.aboutContainer {
+    max-width: 800px;
+    height: 750px;
+    height: auto;
+    display: flex;
+}
+ 
+.rolam {
+    font-weight: bold;
+    font-size: 2rem;
+    max-width: 800px;
+    width: 800px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.szoveg {
+    color: gray;
+    display: flex;
+    text-align: justify;
+    text-indent: 20px;
+    padding-top: 10px;
+}
+
+/*-----------------------------work-----------------------------------*/
+
+#work {
+    height: auto;
+    width: 100vw;
+}
+
+.workContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    gap: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+.workContainer img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;   
+}
+
+.projektek {
+    border: 4px solid #544a7d;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 1000px;
+    padding: 15px;
+    border-radius: 15px;
+    gap: 15px;
+
+}
+
+.projektek h1 {
+    color: #544a7d;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.workText {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding-top: 15px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.projektek a{
+    color: #544a7d; 
+}
+
+.workText hr {
+    color: #544a7d;
+    border: 0.01rem solid #544a7d;
+}
+
+/*-----------------------------contact-----------------------------------*/
+
+#contact {
+    background-color: #1f2020;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-title {
+    width: 70%;
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  
+  #kapcsolat {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .contact-content {
+    display: flex;
+    width: 1000px;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  
+  .contact-elerhetosegek {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #elerhetosegek {
+    text-decoration: underline;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    color: black;
+    width: 350px;
+    border-radius: 3%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .contact-form input {
+      background-color: white;
+      padding: 10px;
+      margin-bottom: 12px;
+      border: none;
+      border-radius: 16px;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.187);
+  }
+  
+  .contact-form input[type=button] {
+      background-color: black;
+      color: white;
+      width: 200px;
+      cursor: pointer;
+      font-size: larger;
+  }
+  
+  #contactform-title {
+    color: black;
+    font-size: xx-large;
+    text-align: left;
+    padding-right: 3rem;
+    margin-top: 1rem;
+  }
+
+/*-----------------------------contact-----------------------------------*/
+
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutContainer, .workContainer {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+
+    .hero-profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-button a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .contact-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .workContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .projektek {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .hero-photo {
+        width: 80%;
+    }
+
+    .contact-form input {
+        width: 100%;
+    }
+
+    .projektek {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .projektek p {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+}
